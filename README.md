@@ -1,6 +1,8 @@
-== Docker NFS Server
+Docker NFS Server
+================
 
-=== Usage
+Usage
+----
 ```bash
 docker run -d --name nfs cpuguy83/nfs-server /path/to/share /path/to/share2 /path/to/shareN
 ```
