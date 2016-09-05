@@ -9,6 +9,9 @@ ADD nfs.stop /etc/sv/nfs/finish
 
 ADD nfs_setup.sh /usr/local/bin/nfs_setup
 
+RUN echo "nfs             2049/tcp" >> /etc/services
+RUN echo "nfs             111/udp" >> /etc/services
+
 VOLUME /exports
 
 EXPOSE 111/udp 2049/tcp
