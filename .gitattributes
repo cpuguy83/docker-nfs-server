@@ -1,0 +1,4 @@
+﻿# Ensure sh files use LF.
+*.sh         eol=lf
+nfs.init     eol=lf
+nfs.stop     eol=lf
