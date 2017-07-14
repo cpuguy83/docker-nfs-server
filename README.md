@@ -14,4 +14,4 @@ docker run -d --name nfs-client --privileged --link nfs:nfs cpuguy83/nfs-client 
 More Info
 =========
 
-See http://www.tech-d.net/2014/03/29/docker-quicktip-4-remote-volumes/
+See http://container42.com/2014/03/29/docker-quicktip-4-remote-volumes/
